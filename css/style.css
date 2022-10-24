@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+
+.nav-bar__list .nav-item a {
+    font-size: 18px
+}
+
+.nav-bar__logo-img img {
+    width: 40px;
+    /* heigh: 20px; */
+}
+
+.nav-bar__logo-data h4 {
+    margin: 7px 15px;
+}
+
+.nav-bar__login {
+    padding: 10px;
+}
+
+.modal-header {
+    background-color: #1ebba3;
+}
+
+.modal-header h5 {
+    margin-left: 125px;
+}
+
+.modal-body .modal-body__user, .modal-body .modal-body__password {
+    text-align: center;
+}
+
+.modal-footer {
+    background-color: #1ebba3;
+}
+
+.pelicula-principal__container {
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+.pelicula-principal__container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+
+.pelicula-principal__data {
+    margin: 0;
+    color: white;
+    position: absolute;
+    bottom: 120px;
+
+}
+
+.pelicula-principal__data-titles .movie-title {
+    font-size: 36px;
+}
+
+.pelicula-principal__data-titles .movie-description {
+    font-size: 18px;
+}
+.pelicula-principal__buttons {
+    width: auto;
+}
+
+.pelicula-principal__button {
+    width: auto;
+}
+
+.wrapper-usuario {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-multimedia .multimedia-title {
+    margin: 10px;
+}
+
+.cartas-multimedia .card {
+    width: 15rem;
+    padding: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .4s;
+    box-shadow: 3px 3px 10px whitesmoke;
+}
+
+.card:hover {
+    z-index: 2;
+    transform: scale(1.2);
+    /* display: block; */
+}
+
+.card:hover .card-body {
+    display: inline;
+}
+
+
+.cartas-multimedia .card img {
+    border-radius: 5px;
+}
+
+.footer {
+    height: 150px;
+}
