@@ -9,10 +9,8 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-            rel="stylesheet"
-        />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"/>
+        <link rel="stylesheet" href="fontawesome/css/all.css">
         <link rel="stylesheet" href="css/style.css" />
     </head>
     <body>
@@ -24,21 +22,21 @@
                             <a
                                 class="nav-link text-white font-weight-bold"
                                 aria-current="page"
-                                href="#"
+                                href="#peliculas"
                                 >PELICULAS</a
                             >
                         </li>
                         <li class="nav-item">
                             <a
                                 class="nav-link text-white font-weight-bold"
-                                href="#"
+                                href="#series"
                                 >SERIES</a
                             >
                         </li>
                         <li class="nav-item">
                             <a
                                 class="nav-link text-white font-weight-bold"
-                                href="#"
+                                href="#mi-lista"
                                 >MI LISTA</a
                             >
                         </li>
@@ -124,19 +122,20 @@
         <main>
             <section class="pelicula-principal container mt-4">
                 <div class="pelicula-principal__container">
-                    <img src="img/bridge.jpg" alt="Puente" class="" />
-
+                    <a href="reproductor.html">
+                        <img src="img/bridge.jpg" alt="Puente" class=""/>
+                    </a>
                     <div
                         class="pelicula-principal__data row d-flex align-items-end"
                     >
                         <div class="pelicula-principal__data-titles">
                             <h4 class="movie-title">PELICULA DESTACADA</h4>
-                            <h4 class="movie-description">DESCRIPCION BREVE</h4>
+                            <h4 class="movie-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, sit.</h4>
                         </div>
                         <div class="pelicula-principal__buttons d-flex">
                             <div class="pelicula-principal__button">
-                                <button class="btn btn-outline-dark me-3">
-                                    REPRODUCIR
+                                <button class="btn btn-outline-dark me-3"">
+                                    <a href="reproductor.html">REPRODUCIR</a>
                                 </button>
                             </div>
                             <div class="pelicula-principal__button">
@@ -269,7 +268,7 @@
 
                 <div class="peliculas carousel-multimedia mt-4">
                     <div class="multimedia-title">
-                        <h4 class="text-white">PELICULAS</h4>
+                        <h4 class="text-white" id="peliculas">PELICULAS</h4>
                     </div>
 
                     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -386,7 +385,7 @@
 
                 <div class="series carousel-multimedia mt-4">
                     <div class="multimedia-title">
-                        <h4 class="text-white">SERIES</h4>
+                        <h4 class="text-white" id="series">SERIES</h4>
                     </div>
                     
                     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -504,7 +503,7 @@
 
                 <div class="mi-lista carousel-multimedia mt-4">
                     <div class="multimedia-title">
-                        <h4 class="text-white">MI LISTA</h4>
+                        <h4 class="text-white" id="mi-lista">MI LISTA</h4>
                     </div>
                     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
@@ -621,10 +620,14 @@
         </section>
 
         <footer class="footer container-fluid mt-5 bg-primary">
-            <div class="container">
-                <div
-                    class="member-footer-copyright text-center align-items-center"
-                >
+            <div class="row d-flex flex-column justify-content-center align-items-center">
+                <div class="social-media-footer col-4 text-center mt-4">
+                    <i class="fa-brands fa-square-facebook m-2"></i>
+                    <i class="fa-brands fa-instagram m-2"></i>
+                    <i class="fa-brands fa-square-twitter m-2"></i>
+                    <i class="fa-brands fa-youtube m-2"></i>
+                </div>
+                <div class="member-footer-copyright text-center col-4 mt-4">
                     <span>© 1997-2022 PeliculApp, Inc.‎</span>
                 </div>
             </div>

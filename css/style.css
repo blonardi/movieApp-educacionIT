@@ -54,12 +54,21 @@ body {
     opacity: 0.8;
 }
 
+.pelicula-principal__container a:link, a:visited, a:active{
+    color: black;
+    text-decoration: none;
+}
+
+.pelicula-principal__container a:hover {
+    color: white;
+}
+
 .pelicula-principal__data {
+    width: 100%;
     margin: 0;
     color: white;
     position: absolute;
     bottom: 120px;
-
 }
 
 .pelicula-principal__data-titles .movie-title {
@@ -115,6 +124,28 @@ body {
     object-fit: contain;
 }
 
+.reparto-cards .card {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    --bs-card-bg: black;
+}
+
+.reparto-cards .card .card-title {
+    margin-top: 120px;
+}
+
+.reparto-cards .card img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    margin-left: -13px;
+}
+
 .footer {
     height: 150px;
+}
+
+.social-media-footer .fa-brands {
+    font-size: 30px;
 }
