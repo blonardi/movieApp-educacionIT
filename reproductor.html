@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PeliculApp</title>
+    <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"/>
+        <link rel="stylesheet" href="fontawesome/css/all.css">
+        <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <header class="header container-fluid mt-3">
+        <div class="nav-bar d-flex justify-content-between">
+            <div class="nav-bar__list">
+                <ul class="nav justify-content-start">
+                    <li class="nav-item">
+                        <a
+                            class="nav-link text-white font-weight-bold"
+                            aria-current="page"
+                            href="#"
+                            >HOME</a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a
+                            class="nav-link text-white font-weight-bold"
+                            aria-current="page"
+                            href="#"
+                            >PELICULAS</a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a
+                            class="nav-link text-white font-weight-bold"
+                            href="#"
+                            >SERIES</a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a
+                            class="nav-link text-white font-weight-bold"
+                            href="#"
+                            >MI LISTA</a
+                        >
+                    </li>
+                </ul>
+            </div>
+
+            <div
+                class="nav-bar__logo-container d-flex justify-content-around"
+            >
+                <div class="nav-bar__logo-data text">
+                    <h4 class="text-white font-weight-bold text-center">
+                        PeliculApp
+                    </h4>
+                </div>
+                <div class="nav-bar__logo-img">
+                    <img
+                        src="img/movie-svgrepo-com.svg"
+                        alt="Logo-peliculapp"
+                    />
+                </div>
+            </div>
+
+            <div class="user-name text-white">
+                <h4>Bautista L.</h4>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="pelicula-principal container mt-5">
+            <div class="pelicula-principal__container">
+                <a href="reproductor.html">
+                    <img src="img/bridge.jpg" alt="Puente" class=""/>
+                </a>
+                <div class="pelicula-principal__data row">
+                    <div class="pelicula-principal__container-data d-flex flex-column justify-content-center align-items-start col-6">
+                        <div class="pelicula-principal__data-titles">
+                            <h4 class="movie-title">PELICULA DESTACADA</h4>
+                            <h4 class="movie-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, sit.</h4>
+                        </div>
+                        <div class="pelicula-principal__buttons d-flex">
+                            <div class="pelicula-principal__button">
+                                <button class="btn btn-outline-dark me-3"">
+                                    <a href="">QUITAR DE MI LISTA</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pelicula-principal__container-play col-6 d-flex justify-content-end align-items-end">
+                        <button class="btn btn-outline-dark text-center"><a href=""> > REPRODUCIR </a></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section class="reproductor-pelicula-principal__data container mt-5">
+        <div class="reproductor-pelicula-principal__data-details row">
+            <div class="ficha-tecnica col-6">
+                <div class="ficha-tecnica_genero">
+                    <h5 class="text-white">Genero</h5>
+                    <p class="text-white">Suspenso</p>
+                </div>
+                <div class="ficha-tecnica_lanzamiento">
+                    <h5 class="text-white">Lanzamiento</h5>
+                    <p class="text-white">2022</p>
+                </div>
+                <div class="ficha-tecninca_clasificacion">
+                    <h5 class="text-white">Clasificacion</h5>
+                    <p class="text-white">+16</p>
+                </div>
+            </div>
+            <div class="sinopsis col-6">
+                <h3 class="text-white">Sinopsis</h3>
+                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi odit mollitia laboriosam. Doloribus, nostrum dolores perferendis aliquam mollitia ab cupiditate!</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="reparto container mt-5">
+        <div>
+            <div class="reparto-data row">
+                <div class="reparto-title">
+                    <h4 class="text-white">REPARTO</h4>
+                </div>
+            </div>
+            <div class="reparto-cards row d-flex justify-content-between mt-3">
+                <div class="card col-2">
+                    <img src="img/rocket.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title text-center text-white">Card title</h5>
+                    </div>
+                </div>
+                <div class="card col-2">
+                    <img src="img/rocket.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title text-center text-white">Card title</h5>
+                    </div>
+                </div>
+                <div class="card col-2">
+                    <img src="img/rocket.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title text-center text-white">Card title</h5>
+                    </div>
+                </div>
+                <div class="card col-2">
+                    <img src="img/rocket.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title text-center text-white">Card title</h5>
+                    </div>
+                </div>
+                <div class="card col-2">
+                    <img src="img/rocket.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title text-center text-white">Card title</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer container-fluid mt-5 bg-primary mt-5">
+        <div class="row d-flex flex-column justify-content-center align-items-center">
+            <div class="social-media-footer col-4 text-center mt-4">
+                <a href=""><i class="fa-brands fa-square-facebook m-2"></i></a>
+                <a href=""><i class="fa-brands fa-instagram m-2"></i></a>
+                <a href=""><i class="fa-brands fa-square-twitter m-2"></i></a>
+                <a href=""><i class="fa-brands fa-youtube m-2"></i></a>
+            </div>
+            <div class="member-footer-copyright text-center col-4 mt-4">
+                <span>© 1997-2022 PeliculApp, Inc.‎</span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
