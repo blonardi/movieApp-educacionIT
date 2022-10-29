@@ -149,3 +149,15 @@ body {
 .social-media-footer .fa-brands {
     font-size: 30px;
 }
+
+.carousel-control-prev, .carousel-control-next {
+    opacity: 0;
+}
+
+.carousel-control-prev:hover{
+    display: block;
+}
+
+.carousel-control-next:hover {
+    display: block;    
+}
