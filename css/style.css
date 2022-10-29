@@ -86,11 +86,6 @@ body {
     width: auto;
 }
 
-/* .wrapper-usuario {
-    width: 100%;
-    height: auto;
-} */
-
 .carousel-multimedia .multimedia-title {
     margin: 10px;
 }
@@ -160,4 +155,24 @@ body {
 
 .carousel-control-next:hover {
     display: block;    
+}
+
+/**
+ * Acá tenés que modificar el estilo por defecto de bootstrap,
+ * de lo contrario al hacer hover se corta la imagen por el
+ * transform: scale
+ */
+ .carousel-inner {
+    overflow: visible;
+}
+/**
+ * Y luego le ponés el overflow: hidden al wrapper general
+ * El margin horizontal negativo con el padding del mismo
+ * valor es para que no se oculten las flechas de navagación
+ * del carousel
+ */
+.wrapper-usuario {
+    overflow: hidden;
+    margin: 0 -40px;
+    padding: 0 40px 40px;
 }
